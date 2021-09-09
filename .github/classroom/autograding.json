@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "Factorial",
+      "setup": "",
+      "run": "./gradlew clean test --tests MyTests.testFactorial",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "E",
+      "setup": "",
+      "run": "./gradlew clean test --tests MyTests.testE",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Babylonian",
+      "setup": "",
+      "run": "./gradlew clean test --tests MyTests.testBabylonian",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
